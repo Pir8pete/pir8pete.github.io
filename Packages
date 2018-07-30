@@ -11,9 +11,11 @@ Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
 Description: Bypass jailbreak detection in the Uber driver app version 3.167.2 (August 21, 2017) and below.
 
+Name: AppHide
 Package: AppHide
 Version: 0.2.3-2
 Section: System
+Author: Jerry En <apphide@jerryen.com>
 Maintainer: Jerry En <apphide@jerryen.com>
 Depends: firmware (>7.0), mobilesubstrate, applist
 Architecture: iphoneos-arm
@@ -21,39 +23,39 @@ Filename: ./debs/AppHide_0.2.3-2.deb
 Size: 13276
 MD5sum: d212a583bbc6cc41211955c898a35af8
 Description: Hide apps on the homescreen and from spotlight via Settings.app.
-Name: AppHide
-Author: Jerry En <apphide@jerryen.com>
 
+Name: appinst (App Installer)
 Package: appinst (App Installer)
 Version: 1.1.2
 Section: Utilities
+Author: Karen/あけみ <karen@angelxwind.net>
 Maintainer: Linus Yang <appsync@gmail.com>
 Depends: firmware (>5.0), appsyncunified
 Conflicts: com.sull.appinstaller
 Architecture: iphoneos-arm
 Filename: ./debs/appinst_1.1.2.deb
-Size: 56427
+Size: 56426
 MD5sum: 1e1c72baeb859ca2547f80d891194fbd
 Description: Install .ipa and .deb packages from the command line.
-Name: appinst (App Installer)
-Author: Karen/あけみ <karen@angelxwind.net>
 
+Name: BDaySpotify 2
 Package: BDaySpotify 2
 Version: 1.4.6
 Section: Tweaks
+Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>8.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/BDaySpotify2_1.4.6.deb
-Size: 10305
+Size: 10304
 MD5sum: 3910263a2902b8ace7da3d1651613b5e
 Description: Enables Spotify premium features.
-Name: BDaySpotify 2
-Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
 
+Name: NCIfNeeded
 Package: NCIfNeeded
 Version: 2.0-3
 Section: Tweaks
+Author: Jay Zuerndorfer <jzplusplus@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>8.0), mobilesubstrate (>0.9.5000)
 Architecture: iphoneos-arm
@@ -61,5 +63,44 @@ Filename: ./debs/NCifNeeded_2.0-3.deb
 Size: 17012
 MD5sum: 27c1b2170d42cab5de3093c43fa35624
 Description: Skips Today section if new notification.
-Name: NCIfNeeded
-Author: Jay Zuerndorfer <jzplusplus@gmail.com>
+
+Name: AppList
+Package: AppList
+Version: 1.5.14
+Section: System
+Author: Ryan Petrich <rpetrich@gmail.com>
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: firmware (>3.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap (>1.0.6~beta) | firmware (<7.0)
+Conflicts: com.a3tweaks.polus (<2.0.7)
+Architecture: iphoneos-arm
+Filename: ./debs/applist_1.5.14.deb
+Size: 93138
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+Description: Allow extensions to read the list of installed apps.
+
+Name: AppSync Unified
+Package: AppSync Unified
+Version: 31.1
+Section: Tweaks
+Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5100), firmware (<11.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Architecture: iphoneos-arm
+Filename: ./debs/AppSyncUnified_31.1.deb
+Size: 30362
+MD5sum: 3d066c0024bacf35a705da8907a11e1a
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+
+Name: Erica Utilities
+Package: Erica Utilities
+Version: 1:0.4.2
+Section: Utilities
+Author: Erica Sadun <apptapp@ericasadun.com>
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Depends: 
+Architecture: iphoneos-arm
+Filename: ./debs/EricaUtilities_0.4.2.deb
+Size: 55410
+MD5sum: 89a3bb9791c2deee6f530773089ee43d
+Description: A collection of command-line utilities for various purposes.
