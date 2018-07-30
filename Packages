@@ -7,22 +7,22 @@ Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber Driver app.
+Description: Bypass jailbreak detection in the Uber driver app.
 Name: UberDriverPatch
 Author: Ryley Angus <nam4am@mail-vl.com>
 Depiction: https://pir8pete.github.io/depictions/?p=
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Package: BDaySpotify 2
+Version: 1.4.6
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Maintainer: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
+Depends: firmware (>8.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
+Filename: ./debs/BDaySpotify2_1.4.6.deb
+Size: 10304
+MD5sum: 3910263a2902b8ace7da3d1651613b5e
+Description: Enables Spotify premium features.
+Name: BDaySpotify 2
+Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
 Depiction: https://pir8pete.github.io/depictions/?p=
 
