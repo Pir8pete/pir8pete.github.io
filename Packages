@@ -9,7 +9,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver.app version 3.167.2 (August 21, 2017) and lower.
+Description: Bypass jailbreak detection in the Uber driver.app v3.167.2 (August 21, 2017) and lower.
 
 Name: AppHide
 Package: com.jerryen.apphide
@@ -49,7 +49,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/BDaySpotify2_1.4.6.deb
 Size: 10304
 MD5sum: 3910263a2902b8ace7da3d1651613b5e
-Description: Enables Spotify premium features.
+Description: Enable Spotify premium features.
 
 Name: NCifNeeded
 Package: org.thebigboss.ncifneeded
@@ -62,7 +62,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/NCifNeeded_2.0-3.deb
 Size: 17012
 MD5sum: 27c1b2170d42cab5de3093c43fa35624
-Description: Skips Today section if new notification.
+Description: Skips Today section if new notifications are pending.
 
 Name: AppList
 Package: com.rpetrich.applist
@@ -132,10 +132,9 @@ Filename: ./debs/iCleanerPro_7.7.0k.deb
 Size: 6933308
 MD5sum: e69a3c856102e04c3c6fbd277f8c2615
 Description: System cleaner and optimizer.
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
 
 Name: PreferenceLoader
-Package: dustin.howett.preferenceloader
+Package: preferenceloader
 Version: 2.2.4~alpha1
 Section: System
 Author: Dustin Howett <cydia.pl@relay.howett.net>
@@ -145,7 +144,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/PreferenceLoader_2.2.4~alpha1.deb
 Size: 49862
 MD5sum: eb8cd7a434e9ab019ab775d19442eccd
-Description: Load preferences in style.
+Description: Enables the ability load preferences.
 
 Name: RocketBootstrap
 Package: com.rpetrich.rocketbootstrap
@@ -166,12 +165,12 @@ Version: 1.2.1
 Section: Tweaks
 Author: Saurik & Jake
 Maintainer: Saurik & Jake
-Depends: firmware (>11.0), firmware (<11.0)
+Depends: firmware (>11.0), firmware (<<11.3.1)
 Architecture: iphoneos-arm
 Filename: ./debs/AFC2_1.2.1.deb
 Size: 11360
 MD5sum: fe09e6fedd4921b30c28f373aa64757c
-Description: Enables root access to sandbox.
+Description: Enables root access to sandbox over WiFi and USB.
 
 Name: Anemone
 Package: com.anemonetheming.anemone
@@ -213,7 +212,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/CCSupport_1.1.1.deb
 Size: 26296
 MD5sum: 862496fd2284e4971864e819ba760904
-Description: Support for CC modules.
+Description: Safe support for control center modules.
 
 Name: DeleteForever
 Package: com.creatix.deleteforever
@@ -226,7 +225,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/DeleteForever_0.0.1-59.deb
 Size: 277044
 MD5sum: 9bb84f106afc2d2568205ab678f03a79
-Description: Add an extra menu option to "Delete Permanently" in the stock Photos app.
+Description: Add an extra menu option in Photos.app to "Delete Permanently".
 
 Name: EzCC
 Package: com.auxilium.ezcc
@@ -240,9 +239,9 @@ Architecture: iphoneos-arm
 Filename: ./debs/EzCC_1.2.4.deb
 Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
-Description: Allows to launch apps and activate system commands from the Control Center.
+Description: Ability to launch apps and activate system commands from the Control Center.
 
-Name: Filza File Manager CRACKED
+Name: Filza CRACKED
 Package: com.repo.xarold.com.filza64bit
 Version: 3.5.2-4k
 Section: Utilities
@@ -254,7 +253,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4k.deb
 Size: 8536906
 MD5sum: 08a78e47770f3d22da04a8f81856cc2e
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices.
+Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices, and iOS 7+.
 
 Name: Flex 3~Beta48
 Package: Flex3beta
@@ -269,7 +268,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/Flex3~Beta48.deb
 Size: 20685344
 MD5sum: d2ffdc66b5735c12a360225cb71e57e8
-Description: Develop your own tweaks and share them on the Flex community cloud.
+Description: Develop your own tweaks and share them on the Flex cloud community.
 
 Name: HideSettingsSearch
 Package: com.rain.hidesettingssearch
@@ -282,10 +281,10 @@ Architecture: iphoneos-arm
 Filename: ./debs/HideSettingsSearch_1.0.deb
 Size: 2758
 MD5sum: 84d35c16f0e49640b48555594dffd627
-Description: Hide search in the Settings.
+Description: Hides the search bar at the top of the settings menu.
 
 Name: iBlackList
-Package: iblacklist
+Package: com.br.iblacklist
 Version: 11.1
 Section: Utilities
 Author: spektro and hdsq2 <support@iblacklist.com.br>
@@ -295,9 +294,9 @@ Architecture: iphoneos-arm
 Filename: ./debs/iBlackList_11.1.deb
 Size: 3786966
 MD5sum: 49f2413c66f55300fe3dbede0f6c6d44
-Description: Firewall for iMessages, calls, facetime, SMS and MMS.  Has parental control mode by blocking outgoing calls.
+Description: Firewall for calls, iMessages, facetime, SMS and MMS.  Parental control mode to blocking outgoing calls.
 
-Name: Icon Tool Cracked
+Name: Icon Tool CRACKED
 Package: org.ioshack.icontool
 Version: 1.9-7k
 Section: Tweaks
@@ -309,7 +308,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/IconTool_1.9-7k.deb
 Size: 492684
 MD5sum: 93fe93a3b7a76c487622e942c0b077ab
-Description: App tools menu from jiggle mode.
+Description: Enables a tools menu with a swip up or down over an app icon.
 
 Name: Libstatus9
 Package: org.thebigboss.libstatus9
@@ -325,7 +324,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/Libstatus9_1-0.0.1.5-1.deb
 Size: 33072
 MD5sum: 2a90b0b62d77604b67a10e665415c683
-Description: Statusbar icon support for 9.1+
+Description: Statusbar icon support for iOS 9.1+
 
 Name: NGXPlay11
 Package: com.eason.carplay.ios11
@@ -339,7 +338,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/NGXPlay11_2.0-12.deb
 Size: 5319966
 MD5sum: 51a5d39091b38f5b62845b46145bc484
-Description: Lets your iPhone mirror to carplay with any app.
+Description: Lets your iPhone mirror to carplay to display any app.
 
 Name: NoOlderNotificationsText
 Package: com.imkpatil.nooldernotificationstext
@@ -365,7 +364,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/SilentScreenshot_1.1-2.deb
 Size: 156192
 MD5sum: 1fc8b88214babba5a06a25cf8050b10f
-Description: Enables customize settings for screenshots, customize flash color, turn preview and shutter sound on/off.
+Description: Enables customization settings for screenshots, customize the flash color, turn preview on/off, and shutter sound on/off.
 
 Name: Spotlightless11
 Package: com.cydiageek.spotlightless11
@@ -391,7 +390,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/SugarCane_1.0.0-1+debug.deb
 Size: 7888
 MD5sum: 42add643c538ddacb04194cd10a7ccb7
-Description: Adds a percentage on the sliders in the control center.
+Description: Adds a small percentage to the sliders in control center.
 
 Name: uasharedtools (iOS 11)
 Package: com.unlimapps.uasharedtools.nostash
@@ -406,4 +405,4 @@ Architecture: iphoneos-arm
 Filename: ./debs/uasharedtools(nostash)iOS11_2.2r-61.deb
 Size: 22785424
 MD5sum: 57aee2d915780a062b05e95279402e61
-Description: Shared tools for unlimapps tweaks.
+Description: Shared tools for ++ tweaks.
