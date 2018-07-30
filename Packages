@@ -1,15 +1,15 @@
+Name: UberDriverPatch
 Package: UberDriverPatch
 Version: 0.0.9
 Section: Tweaks
+Author: Ryley Angus <nam4am@mail-vl.com>
 Maintainer: Ryley Angus <nam4am@mail-vl.com>
 Depends: firmware (<10.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver app 3.167.2 (August 21, 2017) and below.
-Name: UberDriverPatch
-Author: Ryley Angus <nam4am@mail-vl.com>
+Description: Bypass jailbreak detection in the Uber driver app version 3.167.2 (August 21, 2017) and below.
 
 Package: AppHide
 Version: 0.2.3-2
@@ -50,3 +50,16 @@ MD5sum: 3910263a2902b8ace7da3d1651613b5e
 Description: Enables Spotify premium features.
 Name: BDaySpotify 2
 Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
+
+Package: NCIfNeeded
+Version: 2.0-3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>8.0), mobilesubstrate (>0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/NCifNeeded_2.0-3.deb
+Size: 17012
+MD5sum: 27c1b2170d42cab5de3093c43fa35624
+Description: Skips Today section if new notification.
+Name: NCIfNeeded
+Author: Jay Zuerndorfer <jzplusplus@gmail.com>
