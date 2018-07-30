@@ -9,7 +9,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver app version 3.167.2 (August 21, 2017) and lower.
+Description: Bypass jailbreak detection in the Uber driver.app version 3.167.2 (August 21, 2017) and lower.
 
 Name: AppHide
 Package: com.jerryen.apphide
@@ -24,11 +24,11 @@ Size: 13276
 MD5sum: d212a583bbc6cc41211955c898a35af8
 Description: Hide apps on the homescreen and from spotlight via Settings.app.
 
-Name: appinst (App Installer)
+Name: AppInst (App Installer)
 Package: com.linusyang.appinst
 Version: 1.1.2
 Section: Utilities
-Author: Karen/あけみ <karen@angelxwind.net>
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
 Maintainer: Linus Yang <appsync@gmail.com>
 Depends: firmware (>5.0), appsyncunified
 Conflicts: com.sull.appinstaller
@@ -51,7 +51,7 @@ Size: 10304
 MD5sum: 3910263a2902b8ace7da3d1651613b5e
 Description: Enables Spotify premium features.
 
-Name: NCIfNeeded
+Name: NCifNeeded
 Package: org.thebigboss.ncifneeded
 Version: 2.0-3
 Section: Tweaks
@@ -82,16 +82,16 @@ Name: AppSync Unified
 Package: net.angelxwind.appsyncunified
 Version: 31.1
 Section: Tweaks
-Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
+Author: Linus Yang, Karen/あけみ (angelXwind) <karen@angelxwind.net>
 Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Depends: firmware (>5.0), mobilesubstrate (>0.9.5100), firmware (<11.4.1)
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5100), firmware (<<11.4.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
 Architecture: iphoneos-arm
 Filename: ./debs/AppSyncUnified_31.1.deb
 Size: 30362
 MD5sum: 3d066c0024bacf35a705da8907a11e1a
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
 
 Name: Erica Utilities
 Package: com.ericasadun.utilities
@@ -111,19 +111,19 @@ Version: 3.6.8
 Section: Tweaks
 Author: Sheng Wen <tinyapps@foxmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5000), firmware (<<11.3.1)
 Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
 Architecture: iphoneos-arm
 Filename: ./debs/FakeGPSpro_3.6.8.deb
 Size: 4135414
 MD5sum: f7b45340eb3d63042551e421e84eeb47
-Description: iOS 5.1.1~11.3.1 Change your phone's physical location.
+Description: Change your phone's physical location.
 
-Name: iCleaner Pro 64bit Cracked
+Name: iCleaner Pro CRACKED
 Package: com.repo.xarold.com.icleanerpro
 Version: 7.7.0k
 Section: Utilities
-Author: Ivano Bilenchi
+Author: Ivano Bilenchi <support@ib-soft.net>
 Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>4.0), apt7, findutils, shell-cmds
 Conflicts: org.altervista.exilecom.icleaner
@@ -131,7 +131,8 @@ Architecture: iphoneos-arm
 Filename: ./debs/iCleanerPro_7.7.0k.deb
 Size: 6933308
 MD5sum: e69a3c856102e04c3c6fbd277f8c2615
-Description: The first real iOS system cleaner & optimizer.
+Description: System cleaner and optimizer.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
 
 Name: PreferenceLoader
 Package: dustin.howett.preferenceloader
@@ -157,7 +158,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/RocketBootstrap_1.0.6.deb
 Size: 29482
 MD5sum: d28611254d30a7f2bdce588f33430447
-Description: Support library, allowing tweaks to communicate with sandboxed processes.
+Description: Support library to allow tweaks to communicate with sandboxed processes.
 
 Name: AFC2 For iOS11
 Package: aptcn.afc2forios11
@@ -220,12 +221,12 @@ Version: 0.0.1-59
 Section: Tweaks
 Author: Creatix <ioscreatix@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>7.0), mobilesubstrate, preferenceloader
+Depends: firmware (>8.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/DeleteForever_0.0.1-59.deb
 Size: 277044
 MD5sum: 9bb84f106afc2d2568205ab678f03a79
-Description: Delete Permanently option for Photos.
+Description: Add an extra menu option to "Delete Permanently" in the stock Photos app.
 
 Name: EzCC
 Package: com.auxilium.ezcc
@@ -241,13 +242,13 @@ Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 Description: Allows to launch apps and activate system commands from the Control Center.
 
-Name: Filza File Manager 64-bit Cracked
+Name: Filza File Manager CRACKED
 Package: com.repo.xarold.com.filza64bit
 Version: 3.5.2-4k
 Section: Utilities
 Author: TIGI Software
 Maintainer: TIGI Software
-Depends: zip, unzip, gzip, unrar, p7zip
+Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4k.deb
