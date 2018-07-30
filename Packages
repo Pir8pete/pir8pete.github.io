@@ -104,3 +104,58 @@ Filename: ./debs/EricaUtilities_0.4.2.deb
 Size: 55410
 MD5sum: 89a3bb9791c2deee6f530773089ee43d
 Description: A collection of command-line utilities for various purposes.
+
+Name: Fake GPS Pro
+Package: Fake GPS Pro
+Version: 3.6.8
+Section: Tweaks
+Author: Sheng Wen <tinyapps@foxmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
+Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
+Architecture: iphoneos-arm
+Filename: ./debs/FakeGPSpro_3.6.8.deb
+Size: 4135414
+MD5sum: f7b45340eb3d63042551e421e84eeb47
+Description: iOS 5.1.1~11.3.1 Change your phone's physical location.
+
+Name: iCleaner Pro 64bit Cracked
+Package: iCleaner Pro 64bit Cracked
+Version: 7.7.0k
+Section: Utilities
+Author: Ivano Bilenchi
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Architecture: iphoneos-arm
+Filename: ./debs/iCleanerPro_7.7.0k.deb
+Size: 6933308
+MD5sum: e69a3c856102e04c3c6fbd277f8c2615
+Description: The first real iOS system cleaner & optimizer.
+
+Name: PreferenceLoader
+Package: PreferenceLoader
+Version: 2.2.3-3
+Section: System
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/preferenceloader_2.2.3-3.deb
+Size: 20212
+MD5sum: d5f50688820c0fd131c9444d71ed5ff4
+Description: Load preferences in style.
+
+Name: RocketBootstrap
+Package: RocketBootstrap
+Version: 1.0.6
+Section: Tweaks
+Author: Ryan Petrich <rocketbootstrap@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5000), firmware (>3.0)
+Architecture: iphoneos-arm
+Filename: ./debs/RocketBootstrap_1.0.6.deb
+Size: 29482
+MD5sum: d28611254d30a7f2bdce588f33430447
+Description: Support library, allowing tweaks to communicate with sandboxed processes.
+
