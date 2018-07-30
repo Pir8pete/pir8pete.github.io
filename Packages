@@ -15,7 +15,7 @@ Depiction: https://pir8pete.github.io/depictions/?p=
 Package: BDaySpotify 2
 Version: 1.4.6
 Section: Tweaks
-Maintainer: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
+Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>8.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/BDaySpotify2_1.4.6.deb
@@ -25,4 +25,3 @@ Description: Enables Spotify premium features.
 Name: BDaySpotify 2
 Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
 Depiction: https://pir8pete.github.io/depictions/?p=
-
