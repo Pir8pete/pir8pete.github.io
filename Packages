@@ -7,7 +7,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
 MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver app.
+Description: Bypass jailbreak detection in the Uber driver app 3.167.2 (August 21, 2017) and below.
 Name: UberDriverPatch
 Author: Ryley Angus <nam4am@mail-vl.com>
 
@@ -32,7 +32,7 @@ Depends: firmware (>5.0), appsyncunified
 Conflicts: com.sull.appinstaller
 Architecture: iphoneos-arm
 Filename: ./debs/appinst_1.1.2.deb
-Size: 56426
+Size: 56427
 MD5sum: 1e1c72baeb859ca2547f80d891194fbd
 Description: Install .ipa and .deb packages from the command line.
 Name: appinst (App Installer)
@@ -45,7 +45,7 @@ Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>8.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/BDaySpotify2_1.4.6.deb
-Size: 10304
+Size: 10305
 MD5sum: 3910263a2902b8ace7da3d1651613b5e
 Description: Enables Spotify premium features.
 Name: BDaySpotify 2
