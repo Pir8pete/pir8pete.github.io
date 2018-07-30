@@ -95,11 +95,10 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 
 Name: Erica Utilities
 Package: com.ericasadun.utilities
-Version: 0.4.2
+Version: 1:0.4.2
 Section: Utilities
 Author: Erica Sadun <apptapp@ericasadun.com>
 Maintainer: Erica Sadun <apptapp@ericasadun.com>
-Depends: 
 Architecture: iphoneos-arm
 Filename: ./debs/EricaUtilities_0.4.2.deb
 Size: 55410
@@ -256,9 +255,9 @@ Size: 8536906
 MD5sum: 08a78e47770f3d22da04a8f81856cc2e
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices.
 
-Name: Flex3~Beta48
+Name: Flex 3~Beta48
 Package: Flex3beta
-Version: 3~Beta48
+Version: 1:3~Beta48
 Section: Tweaks
 Author: John Coates
 Maintainer: John Coates
@@ -269,7 +268,7 @@ Architecture: iphoneos-arm
 Filename: ./debs/Flex3~Beta48.deb
 Size: 20685344
 MD5sum: d2ffdc66b5735c12a360225cb71e57e8
-Description: Develop your own tweaks and share them on the Flex Community Cloud.
+Description: Develop your own tweaks and share them on the Flex community cloud.
 
 Name: HideSettingsSearch
 Package: com.rain.hidesettingssearch
@@ -313,13 +312,14 @@ Description: App tools menu from jiggle mode.
 
 Name: Libstatus9
 Package: org.thebigboss.libstatus9
-Version: 0.0.1.5-1
+Version: 1:0.0.1.5-1
 Section: Development
 Author: Rene Kahle <packetfahrer@web.de>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate,  firmware (>9.1), com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar, libmoorecon
 Replaces: libstatusbar, libmoorecon
+Provides: libstatusbar, libmoorecon
 Architecture: iphoneos-arm
 Filename: ./debs/Libstatus9_1-0.0.1.5-1.deb
 Size: 33072
