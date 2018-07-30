@@ -10,7 +10,6 @@ MD5sum: 3603030848ebf1e81f8cc84cd411cd70
 Description: Bypass jailbreak detection in the Uber driver app.
 Name: UberDriverPatch
 Author: Ryley Angus <nam4am@mail-vl.com>
-Depiction: https://pir8pete.github.io/depictions/?p=
 
 Package: AppHide
 Version: 0.2.3-2
@@ -24,7 +23,6 @@ MD5sum: d212a583bbc6cc41211955c898a35af8
 Description: Hide apps on the homescreen and from spotlight via Settings.app.
 Name: AppHide
 Author: Jerry En <apphide@jerryen.com>
-Depiction: https://pir8pete.github.io/depictions/?p=
 
 Package: appinst (App Installer)
 Version: 1.1.2
@@ -38,8 +36,7 @@ Size: 56426
 MD5sum: 1e1c72baeb859ca2547f80d891194fbd
 Description: Install .ipa and .deb packages from the command line.
 Name: appinst (App Installer)
-Author: Linus Yang <appsync@gmail.com>
-Depiction: https://pir8pete.github.io/depictions/?p=
+Author: Karen/あけみ <karen@angelxwind.net>
 
 Package: BDaySpotify 2
 Version: 1.4.6
@@ -53,4 +50,3 @@ MD5sum: 3910263a2902b8ace7da3d1651613b5e
 Description: Enables Spotify premium features.
 Name: BDaySpotify 2
 Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
-Depiction: https://pir8pete.github.io/depictions/?p=
