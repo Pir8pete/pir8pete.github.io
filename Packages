@@ -247,7 +247,7 @@ Version: 3.5.2-4
 Section: Utilities
 Author: TIGI Software
 Maintainer: TIGI Software
-Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
+Depends: firmware (>7.0), zip, unzip, gzip, unrar, 7zip
 Conflicts: com.tigisoftware.filza
 Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4.deb
@@ -413,10 +413,9 @@ Version: 3.0~beta7
 Section: Utilities
 Author: Julioverne
 Maintainer: Julioverne
-Homepage: http://twitter.com/ijulioverne
 Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
 Architecture: iphoneos-arm
 Filename: ./debs/CrackTool3_3.0~beta7.deb
 Size: 146026
 MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
-Description: Will crack paid and trial apps.
+Description: Cracks paid and trial apps.
