@@ -17,7 +17,7 @@ Version: 0.2.3-2
 Section: System
 Author: Jerry En <apphide@jerryen.com>
 Maintainer: Jerry En <apphide@jerryen.com>
-Depends: firmware (>7.0), mobilesubstrate, com.rpetrich.applist
+Depends: firmware (>7.0), mobilesubstrate, applist
 Architecture: iphoneos-arm
 Filename: ./debs/AppHide_0.2.3-2.deb
 Size: 13276
