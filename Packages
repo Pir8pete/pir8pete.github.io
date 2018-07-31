@@ -65,7 +65,7 @@ MD5sum: 27c1b2170d42cab5de3093c43fa35624
 Description: Skips Today section if new notifications are pending.
 
 Name: AppList
-Package: com.rpetrich.applist
+Package: applist
 Version: 1.5.14
 Section: System
 Author: Ryan Petrich <rpetrich@gmail.com>
