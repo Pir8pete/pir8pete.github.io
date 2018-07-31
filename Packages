@@ -215,11 +215,11 @@ MD5sum: 862496fd2284e4971864e819ba760904
 Description: Safe support for control center modules.
 
 Name: DeleteForever
-Package: com.creatix.deleteforever
+Package: com.hackyouriphone.deleteforever
 Version: 0.0.1-59
 Section: Tweaks
 Author: Creatix <ioscreatix@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>8.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/DeleteForever_0.0.1-59.deb
