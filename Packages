@@ -134,7 +134,7 @@ MD5sum: e69a3c856102e04c3c6fbd277f8c2615
 Description: System cleaner and optimizer.
 
 Name: PreferenceLoader
-Package: howett.net.preferenceloader
+Package: preferenceloader
 Version: 2.2.4~alpha1
 Section: System
 Author: Dustin Howett <cydia.pl@relay.howett.net>
@@ -220,7 +220,7 @@ Version: 0.0.1-59
 Section: Tweaks
 Author: Creatix <ioscreatix@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>8.0), mobilesubstrate, howett.net.preferenceloader
+Depends: firmware (>8.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/DeleteForever_0.0.1-59.deb
 Size: 277044
