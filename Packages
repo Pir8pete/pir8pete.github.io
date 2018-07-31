@@ -111,7 +111,7 @@ Version: 3.6.8
 Section: Tweaks
 Author: Sheng Wen <tinyapps@foxmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>5.0), mobilesubstrate (>0.9.5000), firmware (<<11.3.1)
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
 Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
 Architecture: iphoneos-arm
 Filename: ./debs/FakeGPSpro_3.6.8.deb
@@ -419,3 +419,16 @@ Filename: ./debs/CrackTool3_3.0~beta7.deb
 Size: 146026
 MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
 Description: Cracks paid and trial apps.
+
+Name: Darwin CC Tools
+Package: ocdtools
+Version: 286-8
+Section: Development
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: openssl, uuid
+Architecture: iphoneos-arm
+Filename: ./debs/odcctools_286-8.deb
+Size: 1092318
+MD5sum: 3a348b8217d76f9866ccdb16d5deb501
+Description: Linker and assembler required by some tweaks.
