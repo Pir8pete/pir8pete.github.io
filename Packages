@@ -241,14 +241,14 @@ Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 Description: Ability to launch apps and activate system commands from the Control Center.
 
-Name: Filza File Manager 64-bit
-Package: com.tigisoftware.filza
-Version: 3.5.2-4
+Name: Filza CRACKED
+Package: com.repo.xarold.com.filza64bit
+Version: 3.5.2-4k
 Section: Utilities
 Author: TIGI Software
-Maintainer: TIGI Software
+Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
 Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4k.deb
 Size: 6747272
@@ -296,16 +296,16 @@ Size: 3786966
 MD5sum: 49f2413c66f55300fe3dbede0f6c6d44
 Description: Firewall for calls, iMessages, facetime, SMS and MMS.  Parental control mode to blocking outgoing calls.
 
-Name: Icon Tool
+Name: Icon Tool CRACKED
 Package: org.ioshack.icontool
-Version: 1.9-7
+Version: 1.9-7k
 Section: Tweaks
 Author: ioshack <wsdhr1982@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate (>0.9.5000), firmware (>5.0), preferenceloader (>2.2.2), com.ericasadun.utilities
 Conflicts: com.rpetrich.iconrenamer
 Architecture: iphoneos-arm
-Filename: ./debs/IconTool_1.9-7.deb
+Filename: ./debs/IconTool_1.9-7k.deb
 Size: 492684
 MD5sum: 93fe93a3b7a76c487622e942c0b077ab
 Description: Enables a tools menu with a swip up or down over an app icon.
