@@ -17,7 +17,7 @@ Version: 0.2.3-2
 Section: System
 Author: Jerry En <apphide@jerryen.com>
 Maintainer: Jerry En <apphide@jerryen.com>
-Depends: firmware (>7.0), mobilesubstrate, applist
+Depends: firmware (>7.0), mobilesubstrate, com.rpetrich.applist
 Architecture: iphoneos-arm
 Filename: ./debs/AppHide_0.2.3-2.deb
 Size: 13276
@@ -28,9 +28,9 @@ Name: AppInst (App Installer)
 Package: com.linusyang.appinst
 Version: 1.1.2
 Section: Utilities
-Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Author: Karen/あけみ <karen@angelxwind.net>
 Maintainer: Linus Yang <appsync@gmail.com>
-Depends: firmware (>5.0), appsyncunified
+Depends: firmware (>5.0), net.angelxwind.appsyncunified
 Conflicts: com.sull.appinstaller
 Architecture: iphoneos-arm
 Filename: ./debs/appinst_1.1.2.deb
@@ -82,8 +82,8 @@ Name: AppSync Unified
 Package: net.angelxwind.appsyncunified
 Version: 31.1
 Section: Tweaks
-Author: Linus Yang, Karen/あけみ (angelXwind) <karen@angelxwind.net>
-Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Author: Karen/あけみ <karen@angelxwind.net>
+Maintainer: Karen/あけみ <karen@angelxwind.net>
 Depends: firmware (>5.0), mobilesubstrate (>0.9.5100), firmware (<<11.4.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Replaces: us.hackulo.appsync50
@@ -134,7 +134,7 @@ MD5sum: e69a3c856102e04c3c6fbd277f8c2615
 Description: System cleaner and optimizer.
 
 Name: PreferenceLoader
-Package: preferenceloader
+Package: howett.net.preferenceloader
 Version: 2.2.4~alpha1
 Section: System
 Author: Dustin Howett <cydia.pl@relay.howett.net>
@@ -165,7 +165,7 @@ Version: 1.2.1
 Section: Tweaks
 Author: Saurik & Jake
 Maintainer: Saurik & Jake
-Depends: firmware (>11.0), firmware (<<11.3.1)
+Depends: firmware (>11.0)
 Architecture: iphoneos-arm
 Filename: ./debs/AFC2_1.2.1.deb
 Size: 11360
@@ -220,7 +220,7 @@ Version: 0.0.1-59
 Section: Tweaks
 Author: Creatix <ioscreatix@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>8.0), mobilesubstrate, preferenceloader
+Depends: firmware (>8.0), mobilesubstrate, howett.net.preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/DeleteForever_0.0.1-59.deb
 Size: 277044
@@ -241,19 +241,19 @@ Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 Description: Ability to launch apps and activate system commands from the Control Center.
 
-Name: Filza CRACKED
-Package: com.repo.xarold.com.filza64bit
-Version: 3.5.2-4k
+Name: Filza File Manager 64-bit
+Package: com.tigisoftware.filza
+Version: 3.5.2-4
 Section: Utilities
 Author: TIGI Software
 Maintainer: TIGI Software
 Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Architecture: iphoneos-arm
-Filename: ./debs/Filza64bit_3.5.2-4k.deb
+Filename: ./debs/Filza64bit_3.5.2-4.deb
 Size: 8536906
 MD5sum: 08a78e47770f3d22da04a8f81856cc2e
-Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices, and iOS 7+.
+Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
 
 Name: Flex 3~Beta48
 Package: Flex3beta
@@ -289,23 +289,23 @@ Version: 11.1
 Section: Utilities
 Author: spektro and hdsq2 <support@iblacklist.com.br>
 Maintainer: spektro and hdsq2 <support@iblacklist.com.br>
-Depends: mobilesubstrate, shell-cmds, firmware(<<4.0) | Libstatus9
+Depends: mobilesubstrate, shell-cmds, firmware(<<4.0) | org.thebigboss.libstatus9
 Architecture: iphoneos-arm
 Filename: ./debs/iBlackList_11.1.deb
 Size: 3786966
 MD5sum: 49f2413c66f55300fe3dbede0f6c6d44
 Description: Firewall for calls, iMessages, facetime, SMS and MMS.  Parental control mode to blocking outgoing calls.
 
-Name: Icon Tool CRACKED
+Name: Icon Tool
 Package: org.ioshack.icontool
-Version: 1.9-7k
+Version: 1.9-7
 Section: Tweaks
 Author: ioshack <wsdhr1982@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate (>0.9.5000), firmware (>5.0), preferenceloader (>2.2.2), com.ericasadun.utilities
 Conflicts: com.rpetrich.iconrenamer
 Architecture: iphoneos-arm
-Filename: ./debs/IconTool_1.9-7k.deb
+Filename: ./debs/IconTool_1.9-7.deb
 Size: 492684
 MD5sum: 93fe93a3b7a76c487622e942c0b077ab
 Description: Enables a tools menu with a swip up or down over an app icon.
@@ -406,3 +406,17 @@ Filename: ./debs/uasharedtools(nostash)iOS11_2.2r-61.deb
 Size: 22785424
 MD5sum: 57aee2d915780a062b05e95279402e61
 Description: Shared tools for ++ tweaks.
+
+Name: CrackTool 3 (iOS 11)
+Package: com.julioverne.cracktool3
+Version: 3.0~beta7
+Section: Utilities
+Author: Julioverne
+Maintainer: Julioverne
+Homepage: http://twitter.com/ijulioverne
+Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
+Architecture: iphoneos-arm
+Filename: ./debs/CrackTool3_3.0~beta7.deb
+Size: 146026
+MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
+Description: Will crack paid and trial apps.
