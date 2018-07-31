@@ -247,7 +247,7 @@ Version: 3.5.2-4
 Section: Utilities
 Author: TIGI Software
 Maintainer: TIGI Software
-Depends: firmware (>7.0), zip, unzip, gzip, unrar, 7zip
+Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4.deb
