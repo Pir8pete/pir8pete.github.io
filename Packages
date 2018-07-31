@@ -250,9 +250,9 @@ Maintainer: TIGI Software
 Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Architecture: iphoneos-arm
-Filename: ./debs/Filza64bit_3.5.2-4.deb
-Size: 8536906
-MD5sum: 08a78e47770f3d22da04a8f81856cc2e
+Filename: ./debs/Filza64bit_3.5.2-4k.deb
+Size: 6747272
+MD5sum: 623614ffedcf883a48a9a07bcee93084
 Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
 
 Name: Flex 3~Beta48
