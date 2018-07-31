@@ -70,7 +70,7 @@ Version: 1.5.14
 Section: System
 Author: Ryan Petrich <rpetrich@gmail.com>
 Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Depends: firmware (>3.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap (>1.0.6~beta) | firmware (<<7.0)
+Depends: firmware (>3.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap (>1.0.6)
 Conflicts: com.a3tweaks.polus (<<2.0.7)
 Architecture: iphoneos-arm
 Filename: ./debs/applist_1.5.14.deb
