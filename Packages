@@ -284,12 +284,12 @@ MD5sum: 84d35c16f0e49640b48555594dffd627
 Description: Hides the search bar at the top of the settings menu.
 
 Name: iBlackList
-Package: com.br.iblacklist
+Package: iblacklist
 Version: 11.1
 Section: Utilities
 Author: spektro and hdsq2 <support@iblacklist.com.br>
 Maintainer: spektro and hdsq2 <support@iblacklist.com.br>
-Depends: mobilesubstrate, shell-cmds, firmware(<<4.0) | org.thebigboss.libstatus9
+Depends: mobilesubstrate, shell-cmds, firmware(>11.0) | org.thebigboss.libstatus9
 Architecture: iphoneos-arm
 Filename: ./debs/iBlackList_11.1.deb
 Size: 3786966
