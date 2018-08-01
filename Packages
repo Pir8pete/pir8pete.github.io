@@ -447,3 +447,16 @@ Filename: ./debs/org.coolstar.ld64_274.2.deb
 Size: 1518226
 MD5sum: f803d5a5877a0f173f086e20d8918c17
 Description: Linker for building on iOS.
+
+Name: LibColorPicker
+Package: org.thebigboss.libcolorpicker
+Version: 1.6-1
+Section: Development
+Author: PixelFire <pixelfiredev@helpful.io>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>6.0), mobilesubstrate (>0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6-1.deb
+Size: 71722
+MD5sum: f12992a89a3fd29670bf62503efc43cb
+Description: Color picker library for developers.
