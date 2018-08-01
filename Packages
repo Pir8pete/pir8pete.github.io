@@ -421,14 +421,29 @@ MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
 Description: Cracks paid and trial apps.
 
 Name: Darwin CC Tools
-Package: ocdtools
-Version: 286-8
+Package: org.coolstar.cctools
+Version: 895
 Section: Development
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Depends: openssl, uuid
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
 Architecture: iphoneos-arm
-Filename: ./debs/odcctools_286-8.deb
-Size: 1092318
-MD5sum: 3a348b8217d76f9866ccdb16d5deb501
-Description: Linker and assembler required by some tweaks.
+Filename: ./debs/org.coolstar.cctools_895.deb
+Size: 1288458
+MD5sum: 38f20640869ae66dd14c3b6992fd9379
+Description: Tools to work with mach-o files.
+
+Name: LD64
+Package: org.coolstar.ld64
+Version: 274.2
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.ld64_274.2.deb
+Size: 1518226
+MD5sum: f803d5a5877a0f173f086e20d8918c17
+Description: Linker for building on iOS.
