@@ -119,18 +119,17 @@ Size: 4135304
 MD5sum: 4d2f27cf87090a4aab2d297dad60da87
 Description: Change your phone's physical location.
 
-Name: iCleaner Pro CRACKED
-Package: com.repo.xarold.com.icleanerpro
-Version: 7.7.0k
+Name: iCleaner Pro
+Package: org.altervista.exilecom.icleaner
+Version: 7.7.0
 Section: Utilities
 Author: Ivano Bilenchi <support@ib-soft.net>
-Maintainer: Xarold <contact@xarold.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>4.0), apt7, findutils, shell-cmds
-Conflicts: org.altervista.exilecom.icleaner
 Architecture: iphoneos-arm
-Filename: ./debs/iCleanerPro_7.7.0k.deb
-Size: 6933308
-MD5sum: e69a3c856102e04c3c6fbd277f8c2615
+Filename: ./debs/iCleanerPro_7.7.0.deb
+Size: 4574572
+MD5sum: ddde10e6580c49f4fd402d10121d7fc7
 Description: System cleaner and optimizer.
 
 Name: PreferenceLoader
