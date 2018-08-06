@@ -203,20 +203,6 @@ Size: 4135304
 MD5sum: 4d2f27cf87090a4aab2d297dad60da87
 Description: Change your phone's physical location.
 
-Name: Filza CRACKED
-Package: com.repo.xarold.com.filza64bit
-Version: 3.5.2-4k
-Section: Utilities
-Author: TIGI Software
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
-Architecture: iphoneos-arm
-Filename: ./debs/Filza64bit_3.5.2-4k.deb
-Size: 6747272
-MD5sum: 623614ffedcf883a48a9a07bcee93084
-Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
-
 Name: Filza File Manager 64-bit
 Package: com.tigisoftware.filza64bit
 Version: 3.5.2-4
