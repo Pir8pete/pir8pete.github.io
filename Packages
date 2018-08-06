@@ -1,15 +1,29 @@
-Name: UberDriverPatch
-Package: ryleyangus.uberdriverpatch
-Version: 0.0.9
+Name: AFC2 For iOS11
+Package: aptcn.afc2forios11
+Version: 1.2.1
 Section: Tweaks
-Author: Ryley Angus <nam4am@mail-vl.com>
-Maintainer: Ryley Angus <nam4am@mail-vl.com>
-Depends: firmware (<10.0), mobilesubstrate
+Author: Saurik & Jake
+Maintainer: Saurik & Jake
+Depends: firmware (>11.0)
 Architecture: iphoneos-arm
-Filename: ./debs/UberDriverPatch_0.0.9.deb
-Size: 11140
-MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver.app v3.167.2 (August 21, 2017) and lower.
+Filename: ./debs/AFC2_1.2.1.deb
+Size: 11360
+MD5sum: fe09e6fedd4921b30c28f373aa64757c
+Description: Enables root access to sandbox over WiFi and USB.
+
+Name: Anemone
+Package: com.anemonetheming.anemone
+Version: 2.1.8-1
+Section: Tweaks
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>7.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Architecture: iphoneos-arm
+Filename: ./debs/Anemone_2.1.8-1.deb
+Size: 1868662
+MD5sum: ae3df40f3a84bc0b7b772b29769cc313
+Description: Theme manager.
 
 Name: AppHide
 Package: com.jerryen.apphide
@@ -37,32 +51,6 @@ Filename: ./debs/appinst_1.1.2.deb
 Size: 56426
 MD5sum: 1e1c72baeb859ca2547f80d891194fbd
 Description: Install .ipa and .deb packages from a command line.
-
-Name: BDaySpotify 2
-Package: com.hackyouriphone.bdayspotify2
-Version: 1.4.6
-Section: Tweaks
-Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>8.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/BDaySpotify2_1.4.6.deb
-Size: 10304
-MD5sum: 3910263a2902b8ace7da3d1651613b5e
-Description: Enable Spotify premium features.
-
-Name: NCifNeeded
-Package: org.thebigboss.ncifneeded
-Version: 2.0-3
-Section: Tweaks
-Author: Jay Zuerndorfer <jzplusplus@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>8.0), mobilesubstrate (>0.9.5000)
-Architecture: iphoneos-arm
-Filename: ./debs/NCifNeeded_2.0-3.deb
-Size: 17012
-MD5sum: 27c1b2170d42cab5de3093c43fa35624
-Description: Skips Today section if new notifications are pending.
 
 Name: AppList
 Package: applist
@@ -93,98 +81,6 @@ Size: 30362
 MD5sum: 3d066c0024bacf35a705da8907a11e1a
 Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
 
-Name: Erica Utilities
-Package: com.ericasadun.utilities
-Version: 1:0.4.2
-Section: Utilities
-Author: Erica Sadun <apptapp@ericasadun.com>
-Maintainer: Erica Sadun <apptapp@ericasadun.com>
-Architecture: iphoneos-arm
-Filename: ./debs/EricaUtilities_0.4.2.deb
-Size: 55410
-MD5sum: 89a3bb9791c2deee6f530773089ee43d
-Description: A collection of command-line utilities for various purposes.
-
-Name: Fake GPS Pro
-Package: cn.tinyapps.xgpspro
-Version: 3.6.9
-Section: Tweaks
-Author: Sheng Wen <tinyapps@foxmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
-Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
-Architecture: iphoneos-arm
-Filename: ./debs/FakeGPSpro_3.6.9.deb
-Size: 4135304
-MD5sum: 4d2f27cf87090a4aab2d297dad60da87
-Description: Change your phone's physical location.
-
-Name: iCleaner Pro
-Package: org.altervista.exilecom.icleaner
-Version: 7.7.0
-Section: Utilities
-Author: Ivano Bilenchi <support@ib-soft.net>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>4.0), apt7, findutils, shell-cmds
-Architecture: iphoneos-arm
-Filename: ./debs/iCleanerPro_7.7.0.deb
-Size: 4574572
-MD5sum: ddde10e6580c49f4fd402d10121d7fc7
-Description: System cleaner and optimizer.
-
-Name: PreferenceLoader
-Package: preferenceloader
-Version: 2.2.4~alpha1
-Section: System
-Author: Dustin Howett <cydia.pl@relay.howett.net>
-Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/PreferenceLoader_2.2.4~alpha1.deb
-Size: 49862
-MD5sum: eb8cd7a434e9ab019ab775d19442eccd
-Description: Enables the ability load preferences.
-
-Name: RocketBootstrap
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.6
-Section: Tweaks
-Author: Ryan Petrich <rocketbootstrap@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate (>0.9.5000), firmware (>3.0)
-Architecture: iphoneos-arm
-Filename: ./debs/RocketBootstrap_1.0.6.deb
-Size: 29482
-MD5sum: d28611254d30a7f2bdce588f33430447
-Description: Support library to allow tweaks to communicate with sandboxed processes.
-
-Name: AFC2 For iOS11
-Package: aptcn.afc2forios11
-Version: 1.2.1
-Section: Tweaks
-Author: Saurik & Jake
-Maintainer: Saurik & Jake
-Depends: firmware (>11.0)
-Architecture: iphoneos-arm
-Filename: ./debs/AFC2_1.2.1.deb
-Size: 11360
-MD5sum: fe09e6fedd4921b30c28f373aa64757c
-Description: Enables root access to sandbox over WiFi and USB.
-
-Name: Anemone
-Package: com.anemonetheming.anemone
-Version: 2.1.8-1
-Section: Tweaks
-Author: AnemoneTeam <anemonetheming@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>7.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap, pincrush
-Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Architecture: iphoneos-arm
-Filename: ./debs/Anemone_2.1.8-1.deb
-Size: 1868662
-MD5sum: ae3df40f3a84bc0b7b772b29769cc313
-Description: Theme manager.
-
 Name: App Admin
 Package: com.unlimapps.uaupdatetools
 Version: 1.0r-101
@@ -199,6 +95,19 @@ Size: 875008
 MD5sum: 4ab9f1fc10827990402c4a3cbbdeb46a
 Description: Downgrade apps to any previous version in the app store.
 
+Name: BDaySpotify 2
+Package: com.hackyouriphone.bdayspotify2
+Version: 1.4.6
+Section: Tweaks
+Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>8.0), mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/BDaySpotify2_1.4.6.deb
+Size: 10304
+MD5sum: 3910263a2902b8ace7da3d1651613b5e
+Description: Enable Spotify premium features.
+
 Name: CCSupport
 Package: com.opa334.ccsupport
 Version: 1.1.1
@@ -212,6 +121,34 @@ Filename: ./debs/CCSupport_1.1.1.deb
 Size: 26296
 MD5sum: 862496fd2284e4971864e819ba760904
 Description: Safe support for control center modules.
+
+Name: CrackTool 3 (iOS 11)
+Package: com.julioverne.cracktool3
+Version: 3.0~beta7
+Section: Utilities
+Author: Julioverne
+Maintainer: Julioverne
+Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
+Architecture: iphoneos-arm
+Filename: ./debs/CrackTool3_3.0~beta7.deb
+Size: 146026
+MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
+Description: Cracks paid and trial apps.
+
+Name: Darwin CC Tools
+Package: org.coolstar.cctools
+Version: 895
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.cctools_895.deb
+Size: 1288458
+MD5sum: 38f20640869ae66dd14c3b6992fd9379
+Description: Tools to work with mach-o files.
 
 Name: DeleteForever
 Package: com.hackyouriphone.deleteforever
@@ -240,6 +177,32 @@ Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 Description: Ability to launch apps and activate system commands from the Control Center.
 
+Name: Erica Utilities
+Package: com.ericasadun.utilities
+Version: 1:0.4.2
+Section: Utilities
+Author: Erica Sadun <apptapp@ericasadun.com>
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Architecture: iphoneos-arm
+Filename: ./debs/EricaUtilities_0.4.2.deb
+Size: 55410
+MD5sum: 89a3bb9791c2deee6f530773089ee43d
+Description: A collection of command-line utilities for various purposes.
+
+Name: Fake GPS Pro
+Package: cn.tinyapps.xgpspro
+Version: 3.6.9
+Section: Tweaks
+Author: Sheng Wen <tinyapps@foxmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
+Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
+Architecture: iphoneos-arm
+Filename: ./debs/FakeGPSpro_3.6.9.deb
+Size: 4135304
+MD5sum: 4d2f27cf87090a4aab2d297dad60da87
+Description: Change your phone's physical location.
+
 Name: Filza CRACKED
 Package: com.repo.xarold.com.filza64bit
 Version: 3.5.2-4k
@@ -252,6 +215,20 @@ Architecture: iphoneos-arm
 Filename: ./debs/Filza64bit_3.5.2-4k.deb
 Size: 6747272
 MD5sum: 623614ffedcf883a48a9a07bcee93084
+Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
+
+Name: Filza File Manager 64-bit
+Package: com.tigisoftware.filza64bit
+Version: 3.5.2-4
+Section: Utilities
+Author: TIGI Software
+Maintainer: TIGI Software
+Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
+Architecture: iphoneos-arm
+Filename: ./debs/Filza64bit_3.5.2-4.deb
+Size: 8536906
+MD5sum: 08a78e47770f3d22da04a8f81856cc2e
 Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
 
 Name: Flex 3~Beta48
@@ -295,6 +272,19 @@ Size: 3786966
 MD5sum: 49f2413c66f55300fe3dbede0f6c6d44
 Description: Firewall for calls, iMessages, facetime, SMS and MMS.  Parental control mode to blocking outgoing calls.
 
+Name: iCleaner Pro
+Package: org.altervista.exilecom.icleaner
+Version: 7.7.0
+Section: Utilities
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>4.0), apt7, findutils, shell-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/iCleanerPro_7.7.0.deb
+Size: 4574572
+MD5sum: ddde10e6580c49f4fd402d10121d7fc7
+Description: System cleaner and optimizer.
+
 Name: Icon Tool CRACKED
 Package: org.ioshack.icontool
 Version: 1.9-7k
@@ -308,6 +298,19 @@ Filename: ./debs/IconTool_1.9-7k.deb
 Size: 492684
 MD5sum: 93fe93a3b7a76c487622e942c0b077ab
 Description: Enables a tools menu with a swip up or down over an app icon.
+
+Name: LibColorPicker
+Package: org.thebigboss.libcolorpicker
+Version: 1.6-1
+Section: Development
+Author: PixelFire <pixelfiredev@helpful.io>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>6.0), mobilesubstrate (>0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6-1.deb
+Size: 71722
+MD5sum: f12992a89a3fd29670bf62503efc43cb
+Description: Color picker library for developers.
 
 Name: Libstatus9
 Package: org.thebigboss.libstatus9
@@ -325,6 +328,32 @@ Size: 33072
 MD5sum: 2a90b0b62d77604b67a10e665415c683
 Description: Statusbar icon support for iOS 9.1+
 
+Name: LD64
+Package: org.coolstar.ld64
+Version: 274.2
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.ld64_274.2.deb
+Size: 1518226
+MD5sum: f803d5a5877a0f173f086e20d8918c17
+Description: Linker for building on iOS.
+
+Name: NCifNeeded
+Package: org.thebigboss.ncifneeded
+Version: 2.0-3
+Section: Tweaks
+Author: Jay Zuerndorfer <jzplusplus@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>8.0), mobilesubstrate (>0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/NCifNeeded_2.0-3.deb
+Size: 17012
+MD5sum: 27c1b2170d42cab5de3093c43fa35624
+Description: Skips Today section if new notifications are pending.
+
 Name: NGXPlay11
 Package: com.eason.carplay.ios11
 Version: 2.0-12
@@ -338,6 +367,32 @@ Filename: ./debs/NGXPlay11_2.0-12.deb
 Size: 5319966
 MD5sum: 51a5d39091b38f5b62845b46145bc484
 Description: Lets your iPhone mirror to carplay to display any app.
+
+Name: PreferenceLoader
+Package: preferenceloader
+Version: 2.2.4~alpha1
+Section: System
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/PreferenceLoader_2.2.4~alpha1.deb
+Size: 49862
+MD5sum: eb8cd7a434e9ab019ab775d19442eccd
+Description: Enables the ability load preferences.
+
+Name: RocketBootstrap
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.6
+Section: Tweaks
+Author: Ryan Petrich <rocketbootstrap@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5000), firmware (>3.0)
+Architecture: iphoneos-arm
+Filename: ./debs/RocketBootstrap_1.0.6.deb
+Size: 29482
+MD5sum: d28611254d30a7f2bdce588f33430447
+Description: Support library to allow tweaks to communicate with sandboxed processes.
 
 Name: SilentScreenshot
 Package: com.smokin1337.silentscreenshot
@@ -393,56 +448,15 @@ Size: 22785424
 MD5sum: 57aee2d915780a062b05e95279402e61
 Description: Shared tools for ++ tweaks.
 
-Name: CrackTool 3 (iOS 11)
-Package: com.julioverne.cracktool3
-Version: 3.0~beta7
-Section: Utilities
-Author: Julioverne
-Maintainer: Julioverne
-Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
+Name: UberDriverPatch
+Package: ryleyangus.uberdriverpatch
+Version: 0.0.9
+Section: Tweaks
+Author: Ryley Angus <nam4am@mail-vl.com>
+Maintainer: Ryley Angus <nam4am@mail-vl.com>
+Depends: firmware (<10.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/CrackTool3_3.0~beta7.deb
-Size: 146026
-MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
-Description: Cracks paid and trial apps.
-
-Name: Darwin CC Tools
-Package: org.coolstar.cctools
-Version: 895
-Section: Development
-Author: CoolStar <coolstarorganization@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: openssl, uuid, org.coolstar.ld64
-Conflicts: odcctools
-Provides: odcctools
-Architecture: iphoneos-arm
-Filename: ./debs/org.coolstar.cctools_895.deb
-Size: 1288458
-MD5sum: 38f20640869ae66dd14c3b6992fd9379
-Description: Tools to work with mach-o files.
-
-Name: LD64
-Package: org.coolstar.ld64
-Version: 274.2
-Section: Development
-Author: CoolStar <coolstarorganization@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>5.0)
-Architecture: iphoneos-arm
-Filename: ./debs/org.coolstar.ld64_274.2.deb
-Size: 1518226
-MD5sum: f803d5a5877a0f173f086e20d8918c17
-Description: Linker for building on iOS.
-
-Name: LibColorPicker
-Package: org.thebigboss.libcolorpicker
-Version: 1.6-1
-Section: Development
-Author: PixelFire <pixelfiredev@helpful.io>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>6.0), mobilesubstrate (>0.9.5000), preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/org.thebigboss.libcolorpicker_1.6-1.deb
-Size: 71722
-MD5sum: f12992a89a3fd29670bf62503efc43cb
-Description: Color picker library for developers.
+Filename: ./debs/UberDriverPatch_0.0.9.deb
+Size: 11140
+MD5sum: 3603030848ebf1e81f8cc84cd411cd70
+Description: Bypass jailbreak detection in the Uber driver.app v3.167.2 (August 21, 2017) and lower.
