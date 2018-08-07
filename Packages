@@ -25,6 +25,20 @@ Size: 1868662
 MD5sum: ae3df40f3a84bc0b7b772b29769cc313
 Description: Theme manager.
 
+Name: App Admin
+Package: com.unlimapps.uaupdatetools
+Version: 1.0r-101
+Section: System
+Author: UnlimApps Inc.
+Maintainer: UnlimApps Inc.
+Depends: firmware (>7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Architecture: iphoneos-arm
+Filename: ./debs/AppAdmin_1.0r-101.deb
+Size: 875008
+MD5sum: 4ab9f1fc10827990402c4a3cbbdeb46a
+Description: Downgrade apps to any previous version in the app store.
+
 Name: AppHide
 Package: com.jerryen.apphide
 Version: 0.2.3-2
@@ -80,20 +94,6 @@ Filename: ./debs/AppSyncUnified_31.1.deb
 Size: 30362
 MD5sum: 3d066c0024bacf35a705da8907a11e1a
 Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
-
-Name: App Admin
-Package: com.unlimapps.uaupdatetools
-Version: 1.0r-101
-Section: System
-Author: UnlimApps Inc.
-Maintainer: UnlimApps Inc.
-Depends: firmware (>7.0), mobilesubstrate
-Conflicts: it.marcocristalli.asupdatehider
-Architecture: iphoneos-arm
-Filename: ./debs/AppAdmin_1.0r-101.deb
-Size: 875008
-MD5sum: 4ab9f1fc10827990402c4a3cbbdeb46a
-Description: Downgrade apps to any previous version in the app store.
 
 Name: BDaySpotify 2
 Package: com.hackyouriphone.bdayspotify2
@@ -163,6 +163,31 @@ Size: 277044
 MD5sum: 9bb84f106afc2d2568205ab678f03a79
 Description: Add an extra menu option in Photos.app to "Delete Permanently".
 
+Name: DenyPhotoAlbums
+Package: com.cydiageek.denyphotoalbums
+Version: 1.0.6
+Section: Tweaks
+Author: CydiaGeek <lucaluca86@aol.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>10.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/DenyPhotoAlbums_1.0.6.deb
+Size: 60782
+MD5sum: c7e1513b44c85ad87ed7669f68c84715
+Description: Hide Photo Albums
+
+Name: Erica Utilities
+Package: com.ericasadun.utilities
+Version: 1:0.4.2
+Section: Utilities
+Author: Erica Sadun <apptapp@ericasadun.com>
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Architecture: iphoneos-arm
+Filename: ./debs/EricaUtilities_0.4.2.deb
+Size: 55410
+MD5sum: 89a3bb9791c2deee6f530773089ee43d
+Description: A collection of command-line utilities for various purposes.
+
 Name: EzCC
 Package: com.auxilium.ezcc
 Version: 1.2.4
@@ -176,18 +201,6 @@ Filename: ./debs/EzCC_1.2.4.deb
 Size: 128548
 MD5sum: 64eb8681bef8e99ee4e840475aed3996
 Description: Ability to launch apps and activate system commands from the Control Center.
-
-Name: Erica Utilities
-Package: com.ericasadun.utilities
-Version: 1:0.4.2
-Section: Utilities
-Author: Erica Sadun <apptapp@ericasadun.com>
-Maintainer: Erica Sadun <apptapp@ericasadun.com>
-Architecture: iphoneos-arm
-Filename: ./debs/EricaUtilities_0.4.2.deb
-Size: 55410
-MD5sum: 89a3bb9791c2deee6f530773089ee43d
-Description: A collection of command-line utilities for various purposes.
 
 Name: Fake GPS Pro
 Package: cn.tinyapps.xgpspro
@@ -285,6 +298,19 @@ Size: 492684
 MD5sum: 93fe93a3b7a76c487622e942c0b077ab
 Description: Enables a tools menu with a swip up or down over an app icon.
 
+Name: LD64
+Package: org.coolstar.ld64
+Version: 274.2
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.ld64_274.2.deb
+Size: 1518226
+MD5sum: f803d5a5877a0f173f086e20d8918c17
+Description: Linker for building on iOS.
+
 Name: LibColorPicker
 Package: org.thebigboss.libcolorpicker
 Version: 1.6-1
@@ -314,19 +340,6 @@ Size: 33072
 MD5sum: 2a90b0b62d77604b67a10e665415c683
 Description: Statusbar icon support for iOS 9.1+
 
-Name: LD64
-Package: org.coolstar.ld64
-Version: 274.2
-Section: Development
-Author: CoolStar <coolstarorganization@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>5.0)
-Architecture: iphoneos-arm
-Filename: ./debs/org.coolstar.ld64_274.2.deb
-Size: 1518226
-MD5sum: f803d5a5877a0f173f086e20d8918c17
-Description: Linker for building on iOS.
-
 Name: NCifNeeded
 Package: org.thebigboss.ncifneeded
 Version: 2.0-3
@@ -353,6 +366,19 @@ Filename: ./debs/NGXPlay11_2.0-12.deb
 Size: 5319966
 MD5sum: 51a5d39091b38f5b62845b46145bc484
 Description: Lets your iPhone mirror to carplay to display any app.
+
+Name: NoNoRecentNoif
+Package: com.thecasle.nonorecentnotif
+Version: 1.0.0
+Section: Tweaks
+Author: The Casle <jakaslewicz@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>10.0), mobilesubstrate (>0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/NoNoRecentNoif_1.0.0.deb
+Size: 2876
+MD5sum: 6bcac6db5bcba89aea6322cf0bb4b7a9
+Description: Removes "No Older Notifications" text from Notification Center
 
 Name: PreferenceLoader
 Package: preferenceloader
