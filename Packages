@@ -1,15 +1,18 @@
-Name: AFC2 For iOS11
-Package: aptcn.afc2forios11
-Version: 1.2.1
-Section: Tweaks
-Author: Saurik & Jake
-Maintainer: Saurik & Jake
-Depends: firmware (>11.0)
+Name: Apple File Conduit "2" (arm64/KPPLess)
+Package: com.cannathea.afc2d-arm64
+Version: 1.0
+Section: System
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Architecture: iphoneos-arm
-Filename: ./debs/AFC2_1.2.1.deb
-Size: 11360
-MD5sum: fe09e6fedd4921b30c28f373aa64757c
-Description: Enables root access to sandbox over WiFi and USB.
+Filename: ./debs/afc2d-arm64_1.0.deb
+Size: 9810
+MD5sum: a211de08d1622661719cfd000b8bc0f3
+Description: Allow full file-system access over USB or WIFI for arm64 devices, especially for those using a KPPLess jailbreak.
 
 Name: Anemone
 Package: com.anemonetheming.anemone
@@ -366,19 +369,6 @@ Filename: ./debs/NGXPlay11_2.0-12.deb
 Size: 5319966
 MD5sum: 51a5d39091b38f5b62845b46145bc484
 Description: Lets your iPhone mirror to carplay to display any app.
-
-Name: NoNoRecentNoif
-Package: com.thecasle.nonorecentnotif
-Version: 1.0.0
-Section: Tweaks
-Author: The Casle <jakaslewicz@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>10.0), mobilesubstrate (>0.9.5000)
-Architecture: iphoneos-arm
-Filename: ./debs/NoNoRecentNoif_1.0.0.deb
-Size: 2876
-MD5sum: 6bcac6db5bcba89aea6322cf0bb4b7a9
-Description: Removes "No Older Notifications" text from Notification Center
 
 Name: PreferenceLoader
 Package: preferenceloader
