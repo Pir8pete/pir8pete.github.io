@@ -370,6 +370,19 @@ Size: 5319966
 MD5sum: 51a5d39091b38f5b62845b46145bc484
 Description: Lets your iPhone mirror to carplay to display any app.
 
+Name: NoOlderNotificationsText
+Package: com.imkpatil.nooldernotificationstext
+Version: 1.2
+Section: Tweaks
+Author: Kiran Patil
+Maintainer: Kiran Patil
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/NoOlderNotificationsText_1.2.deb
+Size: 2864
+MD5sum: 5473345f8efba11d1c9e008d69c62a7d
+Description: Hides 'No Older Notifications' Text from Notification Center
+
 Name: PreferenceLoader
 Package: preferenceloader
 Version: 2.2.4~alpha1
