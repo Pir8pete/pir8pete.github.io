@@ -469,7 +469,7 @@ Version: 0.0.9
 Section: Tweaks
 Author: Ryley Angus <nam4am@mail-vl.com>
 Maintainer: Ryley Angus <nam4am@mail-vl.com>
-Depends: firmware (<10.0), mobilesubstrate
+Depends: firmware (<10.3.3), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: ./debs/UberDriverPatch_0.0.9.deb
 Size: 11140
