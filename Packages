@@ -1,19 +1,3 @@
-Name: Apple File Conduit "2" (arm64/KPPLess)
-Package: com.cannathea.afc2d-arm64
-Version: 1.0
-Section: System
-Author: saurik, Cannathea <csupport@cannathea.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: cy+cpu.arm64, mobilesubstrate, ldid
-Conflicts: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Architecture: iphoneos-arm
-Filename: ./debs/afc2d-arm64_1.0.deb
-Size: 9810
-MD5sum: a211de08d1622661719cfd000b8bc0f3
-Description: Allow full file-system access over USB or WIFI for arm64 devices, especially for those using a KPPLess jailbreak.
-
 Name: Anemone
 Package: com.anemonetheming.anemone
 Version: 2.1.8-1
@@ -69,6 +53,22 @@ Size: 56426
 MD5sum: 1e1c72baeb859ca2547f80d891194fbd
 Description: Install .ipa and .deb packages from a command line.
 
+Name: Apple File Conduit "2" (arm64/KPPLess)
+Package: com.cannathea.afc2d-arm64
+Version: 1.0
+Section: System
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Architecture: iphoneos-arm
+Filename: ./debs/afc2d-arm64_1.0.deb
+Size: 9810
+MD5sum: a211de08d1622661719cfd000b8bc0f3
+Description: Allow full file-system access over USB or WIFI for arm64 devices, especially for those using a KPPLess jailbreak.
+
 Name: AppList
 Package: applist
 Version: 1.5.14
@@ -98,18 +98,19 @@ Size: 30362
 MD5sum: 3d066c0024bacf35a705da8907a11e1a
 Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
 
-Name: BDaySpotify 2
-Package: com.hackyouriphone.bdayspotify2
-Version: 1.4.6
+Name: CarBridge
+Package: com.repo.xarold.com.carplay
+Version: 1.0.1
 Section: Tweaks
-Author: Andy Wiik & Tony Kraft <repo@hackyouriphone.org>
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>8.0), mobilesubstrate
+Author: leftyfl1p <carbridgetweak@gmail.com>
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ch.ringwald.hidsupport, ws.hbang.common
+Conflicts: com.eason.carplay, com.repo.xarold.com.carplay, com.eason.carplay.ios11
 Architecture: iphoneos-arm
-Filename: ./debs/BDaySpotify2_1.4.6.deb
-Size: 10304
-MD5sum: 3910263a2902b8ace7da3d1651613b5e
-Description: Enable Spotify premium features.
+Filename: ./debs/CarBridge_1.0.1.deb
+Size: 3184480
+MD5sum: b143044c17edc1497e5d28e77aa414a9
+Description: Open any app in CarPlay.
 
 Name: CCSupport
 Package: com.opa334.ccsupport
@@ -124,6 +125,19 @@ Filename: ./debs/CCSupport_1.1.1.deb
 Size: 26296
 MD5sum: 862496fd2284e4971864e819ba760904
 Description: Safe support for control center modules.
+
+Name: Cephei
+Package: ws.hbang.common
+Version: 1.11.3
+Section: Development
+Author: HASHBANG Productions <support@hbang.ws>
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: mobilesubstrate, preferenceloader, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: ./debs/Cephei_1.11.3_iphoneos-arm.deb
+Size: 131780
+MD5sum: 55787243195fc564676f40bd63302739
+Description: Support library for tweaks.
 
 Name: CrackTool 3 (iOS 11)
 Package: com.julioverne.cracktool3
@@ -248,6 +262,19 @@ Size: 20685344
 MD5sum: d2ffdc66b5735c12a360225cb71e57e8
 Description: Develop your own tweaks and share them on the Flex cloud community.
 
+Name: hid-support
+Package: ch.ringwald.hidsupport
+Version: 1.3.1-1
+Section: Tweaks
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5101), firmware (>3.0), com.rpetrich.rocketbootstrap (>1.0.2)
+Architecture: iphoneos-arm
+Filename: ./debs/hid-support_1.3.1-1.deb
+Size: 19132
+MD5sum: d9628d5ebb599a713b442a796b744d31
+Description: support for HID on iOS & Apple TV.
+
 Name: HideSettingsSearch
 Package: com.rain.hidesettingssearch
 Version: 1.0
@@ -327,6 +354,18 @@ Size: 71722
 MD5sum: f12992a89a3fd29670bf62503efc43cb
 Description: Color picker library for developers.
 
+Name: LibPackageInfo
+Package: jp.ashikase.libpackageinfo
+Version: 1.1.0.1-1
+Section: Development
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Filename: ./debs/LibPackageInfo_1.1.0.1-1_iphoneos-arm.deb
+Size: 243602
+MD5sum: f5bbe130452da2165bbe66da5229cba3
+Description: Library to retrieve package information.
+
 Name: Libstatus9
 Package: org.thebigboss.libstatus9
 Version: 1:0.0.1.5-1
@@ -342,33 +381,6 @@ Filename: ./debs/Libstatus9_1-0.0.1.5-1.deb
 Size: 33072
 MD5sum: 2a90b0b62d77604b67a10e665415c683
 Description: Statusbar icon support for iOS 9.1+
-
-Name: NCifNeeded
-Package: org.thebigboss.ncifneeded
-Version: 2.0-3
-Section: Tweaks
-Author: Jay Zuerndorfer <jzplusplus@gmail.com>
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>8.0), mobilesubstrate (>0.9.5000)
-Architecture: iphoneos-arm
-Filename: ./debs/NCifNeeded_2.0-3.deb
-Size: 17012
-MD5sum: 27c1b2170d42cab5de3093c43fa35624
-Description: Skips Today section if new notifications are pending.
-
-Name: NGXPlay11
-Package: com.eason.carplay.ios11
-Version: 2.0-36
-Section: Tweaks
-Author: easonwu <admin@easonwu.org>
-Maintainer: easonwu <admin@easonwu.org>
-Depends: mobilesubstrate (>0.9.5101), firmware (>11.0)
-Conflicts: de.j-gessner.ccloader, com.eason.carplay
-Architecture: iphoneos-arm
-Filename: ./debs/NGXPlay11_2.0-36.deb
-Size: 4871560
-MD5sum: 98e48f24e299672c7e0e9e5d7b8be675
-Description: Lets your iPhone mirror to carplay to display any app.
 
 Name: NoOlderNotificationsText
 Package: com.imkpatil.nooldernotificationstext
@@ -448,6 +460,19 @@ Size: 7888
 MD5sum: 42add643c538ddacb04194cd10a7ccb7
 Description: Adds a small percentage to the sliders in control center.
 
+Name: TechSupport Framework
+Package: jp.ashikase.techsupport
+Version: 1.5.0.1-1
+Section: Development
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: jp.ashikase.libpackageinfo
+Architecture: iphoneos-arm
+Filename: ./debs/TechSupportFramework_1.5.0.1-1_iphoneos-arm.deb
+Size: 114992
+MD5sum: 70794fdd2f450d3f1f42f91edb399ea8
+Description: Framework to assist in providing feedback to developers.
+
 Name: uasharedtools (iOS 11)
 Package: com.unlimapps.uasharedtools.nostash
 Version: 2.2r-61
@@ -462,16 +487,3 @@ Filename: ./debs/uasharedtools(nostash)iOS11_2.2r-61.deb
 Size: 22785424
 MD5sum: 57aee2d915780a062b05e95279402e61
 Description: Shared tools for ++ tweaks.
-
-Name: UberDriverPatch
-Package: ryleyangus.uberdriverpatch
-Version: 0.0.9
-Section: Tweaks
-Author: Ryley Angus <nam4am@mail-vl.com>
-Maintainer: Ryley Angus <nam4am@mail-vl.com>
-Depends: firmware (<10.3.3), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/UberDriverPatch_0.0.9.deb
-Size: 11140
-MD5sum: 3603030848ebf1e81f8cc84cd411cd70
-Description: Bypass jailbreak detection in the Uber driver.app v3.167.2 (August 21, 2017) and lower using iOS 10.3.3 and lower.
