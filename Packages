@@ -1,15 +1,15 @@
 Name: Anemone
 Package: com.anemonetheming.anemone
-Version: 2.1.8-1
+Version: 2.1.8-2
 Section: Tweaks
 Author: AnemoneTeam <anemonetheming@gmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>7.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap, pincrush
 Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Architecture: iphoneos-arm
-Filename: ./debs/Anemone_2.1.8-1.deb
-Size: 1868662
-MD5sum: ae3df40f3a84bc0b7b772b29769cc313
+Filename: ./debs/Anemone_2.1.8-2.deb
+Size: 1857818
+MD5sum: 528a922eb2c41c23c0240c53b685a18d
 Description: Theme manager.
 
 Name: App Admin
@@ -104,7 +104,7 @@ Version: 1.0.1
 Section: Tweaks
 Author: leftyfl1p <carbridgetweak@gmail.com>
 Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ch.ringwald.hidsupport, ws.hbang.common
+Depends: firmware (>10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ch.ringwald.hidsupport, ws.hbang.common
 Conflicts: com.eason.carplay, com.repo.xarold.com.carplay, com.eason.carplay.ios11
 Architecture: iphoneos-arm
 Filename: ./debs/CarBridge_1.0.1.deb
@@ -114,16 +114,16 @@ Description: Open any app in CarPlay.
 
 Name: CCSupport
 Package: com.opa334.ccsupport
-Version: 1.1.1
+Version: 1.1.2
 Section: Tweaks
 Author: opa334 <opa334@protonmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>11.0), mobilesubstrate (>0.9.5000)
 Conflicts: com.ioscreatix.silo
 Architecture: iphoneos-arm
-Filename: ./debs/CCSupport_1.1.1.deb
-Size: 26296
-MD5sum: 862496fd2284e4971864e819ba760904
+Filename: ./debs/CCSupport_1.1.2.deb
+Size: 29826
+MD5sum: e58a2414d428041a46392c2b831fa8b3
 Description: Safe support for control center modules.
 
 Name: Cephei
@@ -141,15 +141,15 @@ Description: Support library for tweaks.
 
 Name: CrackTool 3 (iOS 11)
 Package: com.julioverne.cracktool3
-Version: 3.0~beta7
+Version: 3.0~beta11
 Section: Utilities
 Author: Julioverne
 Maintainer: Julioverne
 Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
 Architecture: iphoneos-arm
-Filename: ./debs/CrackTool3_3.0~beta7.deb
-Size: 146026
-MD5sum: 5f3fd1ef76dc28c05934110a9a0464f6
+Filename: ./debs/CrackTool3_3.0~beta11.deb
+Size: 165344
+MD5sum: 454aebaeb99805d2419c1a6672c75b17
 Description: Cracks paid and trial apps.
 
 Name: Darwin CC Tools
@@ -221,16 +221,16 @@ Description: Ability to launch apps and activate system commands from the Contro
 
 Name: Fake GPS Pro
 Package: cn.tinyapps.xgpspro
-Version: 3.7.2
+Version: 3.7.5
 Section: Tweaks
 Author: Sheng Wen <tinyapps@foxmail.com>
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
 Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
 Architecture: iphoneos-arm
-Filename: ./debs/FakeGPSpro_3.7.2.deb
-Size: 3868270
-MD5sum: 1889d6e79ae708bf161aff2549e43178
+Filename: ./debs/FakeGPSpro_3.7.5.deb
+Size: 3869884
+MD5sum: 693779e4132d4f36be9e2a14480d5aec
 Description: Change your phone's physical location.
 
 Name: Filza File Manager 64-bit
@@ -247,9 +247,9 @@ Size: 8536906
 MD5sum: 08a78e47770f3d22da04a8f81856cc2e
 Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
 
-Name: Flex 3~Beta48
+Name: Flex 3
 Package: Flex3beta
-Version: 1:3~Beta48
+Version: 1:3~Beta49
 Section: Tweaks
 Author: John Coates
 Maintainer: John Coates
@@ -257,9 +257,9 @@ Depends: mobilesubstrate, firmware (>9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, flex3featurecatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, flex3featurecatalog
 Architecture: iphoneos-arm
-Filename: ./debs/Flex3~Beta48.deb
-Size: 20685344
-MD5sum: d2ffdc66b5735c12a360225cb71e57e8
+Filename: ./debs/Flex3~Beta49.deb
+Size: 21496396
+MD5sum: 55f8ceb1d00d90083f31ff092aa1a5b9
 Description: Develop your own tweaks and share them on the Flex cloud community.
 
 Name: hid-support
