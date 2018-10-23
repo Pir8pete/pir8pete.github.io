@@ -1,0 +1,489 @@
+Name: Anemone
+Package: com.anemonetheming.anemone
+Version: 2.1.8-2
+Section: Tweaks
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>7.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Architecture: iphoneos-arm
+Filename: ./debs/Anemone_2.1.8-2.deb
+Size: 1857818
+MD5sum: 528a922eb2c41c23c0240c53b685a18d
+Description: Theme manager.
+
+Name: App Admin
+Package: com.unlimapps.uaupdatetools
+Version: 1.0r-101
+Section: System
+Author: UnlimApps Inc.
+Maintainer: UnlimApps Inc.
+Depends: firmware (>7.0), mobilesubstrate
+Conflicts: it.marcocristalli.asupdatehider
+Architecture: iphoneos-arm
+Filename: ./debs/AppAdmin_1.0r-101.deb
+Size: 875008
+MD5sum: 4ab9f1fc10827990402c4a3cbbdeb46a
+Description: Downgrade apps to any previous version in the app store.
+
+Name: AppHide
+Package: com.jerryen.apphide
+Version: 0.2.3-2
+Section: System
+Author: Jerry En <apphide@jerryen.com>
+Maintainer: Jerry En <apphide@jerryen.com>
+Depends: firmware (>7.0), mobilesubstrate, applist
+Architecture: iphoneos-arm
+Filename: ./debs/AppHide_0.2.3-2.deb
+Size: 13276
+MD5sum: d212a583bbc6cc41211955c898a35af8
+Description: Hide apps on the homescreen and from spotlight via Settings.app.
+
+Name: AppInst (App Installer)
+Package: com.linusyang.appinst
+Version: 1.1.2
+Section: Utilities
+Author: Karen/あけみ <karen@angelxwind.net>
+Maintainer: Linus Yang <appsync@gmail.com>
+Depends: firmware (>5.0), net.angelxwind.appsyncunified
+Conflicts: com.sull.appinstaller
+Architecture: iphoneos-arm
+Filename: ./debs/appinst_1.1.2.deb
+Size: 56426
+MD5sum: 1e1c72baeb859ca2547f80d891194fbd
+Description: Install .ipa and .deb packages from a command line.
+
+Name: Apple File Conduit "2" (arm64/KPPLess)
+Package: com.cannathea.afc2d-arm64
+Version: 1.0
+Section: System
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: aptcn.afc2forios11, com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Architecture: iphoneos-arm
+Filename: ./debs/afc2d-arm64_1.0.deb
+Size: 9810
+MD5sum: a211de08d1622661719cfd000b8bc0f3
+Description: Allow full file-system access over USB or WIFI for arm64 devices, especially for those using a KPPLess jailbreak.
+
+Name: AppList
+Package: applist
+Version: 1.5.14
+Section: System
+Author: Ryan Petrich <rpetrich@gmail.com>
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: firmware (>3.0), mobilesubstrate (>0.9.5000), com.rpetrich.rocketbootstrap (>1.0.6)
+Conflicts: com.a3tweaks.polus (<<2.0.7)
+Architecture: iphoneos-arm
+Filename: ./debs/applist_1.5.14.deb
+Size: 93138
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+Description: Allow extensions to read the list of installed apps.
+
+Name: AppSync Unified
+Package: net.angelxwind.appsyncunified
+Version: 31.1
+Section: Tweaks
+Author: Karen/あけみ <karen@angelxwind.net>
+Maintainer: Karen/あけみ <karen@angelxwind.net>
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5100), firmware (<<11.4.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: ./debs/AppSyncUnified_31.1.deb
+Size: 30362
+MD5sum: 3d066c0024bacf35a705da8907a11e1a
+Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
+
+Name: CarBridge
+Package: com.repo.xarold.com.carplay
+Version: 1.0.1
+Section: Tweaks
+Author: leftyfl1p <carbridgetweak@gmail.com>
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ch.ringwald.hidsupport, ws.hbang.common
+Conflicts: com.eason.carplay, com.repo.xarold.com.carplay, com.eason.carplay.ios11
+Architecture: iphoneos-arm
+Filename: ./debs/CarBridge_1.0.1.deb
+Size: 3184480
+MD5sum: b143044c17edc1497e5d28e77aa414a9
+Description: Open any app in CarPlay.
+
+Name: CCSupport
+Package: com.opa334.ccsupport
+Version: 1.1.2
+Section: Tweaks
+Author: opa334 <opa334@protonmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>11.0), mobilesubstrate (>0.9.5000)
+Conflicts: com.ioscreatix.silo
+Architecture: iphoneos-arm
+Filename: ./debs/CCSupport_1.1.2.deb
+Size: 29826
+MD5sum: e58a2414d428041a46392c2b831fa8b3
+Description: Safe support for control center modules.
+
+Name: Cephei
+Package: ws.hbang.common
+Version: 1.11.3
+Section: Development
+Author: HASHBANG Productions <support@hbang.ws>
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: mobilesubstrate, preferenceloader, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: ./debs/Cephei_1.11.3_iphoneos-arm.deb
+Size: 131780
+MD5sum: 55787243195fc564676f40bd63302739
+Description: Support library for tweaks.
+
+Name: CrackTool 3 (iOS 11)
+Package: com.julioverne.cracktool3
+Version: 3.0~beta11
+Section: Utilities
+Author: Julioverne
+Maintainer: Julioverne
+Depends: ldid (>1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>1.1.4), coreutils-bin, coreutils, odcctools, firmware (>11.0)
+Architecture: iphoneos-arm
+Filename: ./debs/CrackTool3_3.0~beta11.deb
+Size: 165344
+MD5sum: 454aebaeb99805d2419c1a6672c75b17
+Description: Cracks paid and trial apps.
+
+Name: Darwin CC Tools
+Package: org.coolstar.cctools
+Version: 895
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.cctools_895.deb
+Size: 1288458
+MD5sum: 38f20640869ae66dd14c3b6992fd9379
+Description: Tools to work with mach-o files.
+
+Name: DeleteForever
+Package: com.hackyouriphone.deleteforever
+Version: 0.0.1-59
+Section: Tweaks
+Author: Creatix <ioscreatix@gmail.com>
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>8.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/DeleteForever_0.0.1-59.deb
+Size: 277044
+MD5sum: 9bb84f106afc2d2568205ab678f03a79
+Description: Add an extra menu option in Photos.app to "Delete Permanently".
+
+Name: DenyPhotoAlbums
+Package: com.cydiageek.denyphotoalbums
+Version: 1.0.6
+Section: Tweaks
+Author: CydiaGeek <lucaluca86@aol.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>10.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/DenyPhotoAlbums_1.0.6.deb
+Size: 60782
+MD5sum: c7e1513b44c85ad87ed7669f68c84715
+Description: Hide Photo Albums
+
+Name: Erica Utilities
+Package: com.ericasadun.utilities
+Version: 1:0.4.2
+Section: Utilities
+Author: Erica Sadun <apptapp@ericasadun.com>
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Architecture: iphoneos-arm
+Filename: ./debs/EricaUtilities_0.4.2.deb
+Size: 55410
+MD5sum: 89a3bb9791c2deee6f530773089ee43d
+Description: A collection of command-line utilities for various purposes.
+
+Name: EzCC
+Package: com.auxilium.ezcc
+Version: 1.2.4
+Section: Tweaks
+Author: Auxilium Team <macs@auxilium.com>
+Maintainer: Auxilium Team <macs@auxilium.com>
+Depends: mobilesubstrate
+Conflicts: com.m4cs.ezccbeta
+Architecture: iphoneos-arm
+Filename: ./debs/EzCC_1.2.4.deb
+Size: 128548
+MD5sum: 64eb8681bef8e99ee4e840475aed3996
+Description: Ability to launch apps and activate system commands from the Control Center.
+
+Name: Fake GPS Pro
+Package: cn.tinyapps.xgpspro
+Version: 3.7.5
+Section: Tweaks
+Author: Sheng Wen <tinyapps@foxmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0), mobilesubstrate (>0.9.5000)
+Conflicts: cn.tinyapps.xgps, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.XGPSPro, apt.tinyapps.location360pro
+Architecture: iphoneos-arm
+Filename: ./debs/FakeGPSpro_3.7.5.deb
+Size: 3869884
+MD5sum: 693779e4132d4f36be9e2a14480d5aec
+Description: Change your phone's physical location.
+
+Name: Filza File Manager 64-bit
+Package: com.tigisoftware.filza64bit
+Version: 3.5.2-4
+Section: Utilities
+Author: TIGI Software
+Maintainer: TIGI Software
+Depends: firmware (>7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza, com.repo.xarold.com.filza, com.repo.xarold.com.filzajailed
+Architecture: iphoneos-arm
+Filename: ./debs/Filza64bit_3.5.2-4.deb
+Size: 8536906
+MD5sum: 08a78e47770f3d22da04a8f81856cc2e
+Description: File Manager for iPhone, iPad, iPod Touch.  This special version only supports 64-bit devices and iOS 7+.
+
+Name: Flex 3
+Package: Flex3beta
+Version: 1:3~Beta50
+Section: Tweaks
+Author: John Coates
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>9.0), com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package, com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, flex3featurecatalog
+Architecture: iphoneos-arm
+Filename: ./debs/Flex3~Beta50.deb
+Size: 21154010
+MD5sum: ebb3aa69ce844fa9eef60faa03dff863
+Description: Develop your own tweaks and share them on the Flex cloud community.
+
+Name: hid-support
+Package: ch.ringwald.hidsupport
+Version: 1.3.1-1
+Section: Tweaks
+Author: Matthias Ringwald <tickets@btstack.uservoice.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5101), firmware (>3.0), com.rpetrich.rocketbootstrap (>1.0.2)
+Architecture: iphoneos-arm
+Filename: ./debs/hid-support_1.3.1-1.deb
+Size: 19132
+MD5sum: d9628d5ebb599a713b442a796b744d31
+Description: support for HID on iOS & Apple TV.
+
+Name: HideSettingsSearch
+Package: com.rain.hidesettingssearch
+Version: 1.0
+Section: Tweaks
+Author: Rain. <1105100295@qq.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>9.0), mobilesubstrate (>0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/HideSettingsSearch_1.0.deb
+Size: 2758
+MD5sum: 84d35c16f0e49640b48555594dffd627
+Description: Hides the search bar at the top of the settings menu.
+
+Name: iBlackList
+Package: iblacklist
+Version: 11.1
+Section: Utilities
+Author: spektro and hdsq2 <support@iblacklist.com.br>
+Maintainer: spektro and hdsq2 <support@iblacklist.com.br>
+Depends: mobilesubstrate, shell-cmds, firmware(>11.0) | org.thebigboss.libstatus9
+Architecture: iphoneos-arm
+Filename: ./debs/iBlackList_11.1.deb
+Size: 3786966
+MD5sum: 49f2413c66f55300fe3dbede0f6c6d44
+Description: Firewall for calls, iMessages, facetime, SMS and MMS.  Parental control mode to blocking outgoing calls.
+
+Name: iCleaner Pro
+Package: org.altervista.exilecom.icleaner
+Version: 7.7.0
+Section: Utilities
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>4.0), apt7, findutils, shell-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/iCleanerPro_7.7.0.deb
+Size: 4574572
+MD5sum: ddde10e6580c49f4fd402d10121d7fc7
+Description: System cleaner and optimizer.
+
+Name: Icon Tool CRACKED
+Package: org.ioshack.icontool
+Version: 1.9-7k
+Section: Tweaks
+Author: ioshack <wsdhr1982@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5000), firmware (>5.0), preferenceloader (>2.2.2), com.ericasadun.utilities
+Conflicts: com.rpetrich.iconrenamer
+Architecture: iphoneos-arm
+Filename: ./debs/IconTool_1.9-7k.deb
+Size: 492684
+MD5sum: 93fe93a3b7a76c487622e942c0b077ab
+Description: Enables a tools menu with a swip up or down over an app icon.
+
+Name: LD64
+Package: org.coolstar.ld64
+Version: 274.2
+Section: Development
+Author: CoolStar <coolstarorganization@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>5.0)
+Architecture: iphoneos-arm
+Filename: ./debs/org.coolstar.ld64_274.2.deb
+Size: 1518226
+MD5sum: f803d5a5877a0f173f086e20d8918c17
+Description: Linker for building on iOS.
+
+Name: LibColorPicker
+Package: org.thebigboss.libcolorpicker
+Version: 1.6-1
+Section: Development
+Author: PixelFire <pixelfiredev@helpful.io>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>6.0), mobilesubstrate (>0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6-1.deb
+Size: 71722
+MD5sum: f12992a89a3fd29670bf62503efc43cb
+Description: Color picker library for developers.
+
+Name: LibPackageInfo
+Package: jp.ashikase.libpackageinfo
+Version: 1.1.0.1-1
+Section: Development
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Filename: ./debs/LibPackageInfo_1.1.0.1-1_iphoneos-arm.deb
+Size: 243602
+MD5sum: f5bbe130452da2165bbe66da5229cba3
+Description: Library to retrieve package information.
+
+Name: Libstatus9
+Package: org.thebigboss.libstatus9
+Version: 1:0.0.1.5-1
+Section: Development
+Author: Rene Kahle <packetfahrer@web.de>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate,  firmware (>9.1), com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar, libmoorecon
+Replaces: libstatusbar, libmoorecon
+Provides: libstatusbar, libmoorecon
+Architecture: iphoneos-arm
+Filename: ./debs/Libstatus9_1-0.0.1.5-1.deb
+Size: 33072
+MD5sum: 2a90b0b62d77604b67a10e665415c683
+Description: Statusbar icon support for iOS 9.1+
+
+Name: NoOlderNotificationsText
+Package: com.imkpatil.nooldernotificationstext
+Version: 1.2
+Section: Tweaks
+Author: Kiran Patil
+Maintainer: Kiran Patil
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/NoOlderNotificationsText_1.2.deb
+Size: 2864
+MD5sum: 5473345f8efba11d1c9e008d69c62a7d
+Description: Hides 'No Older Notifications' Text from Notification Center
+
+Name: PreferenceLoader
+Package: preferenceloader
+Version: 2.2.4~alpha1
+Section: System
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/PreferenceLoader_2.2.4~alpha1.deb
+Size: 49862
+MD5sum: eb8cd7a434e9ab019ab775d19442eccd
+Description: Enables the ability load preferences.
+
+Name: RocketBootstrap
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.6
+Section: Tweaks
+Author: Ryan Petrich <rocketbootstrap@gmail.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>0.9.5000), firmware (>3.0)
+Architecture: iphoneos-arm
+Filename: ./debs/RocketBootstrap_1.0.6.deb
+Size: 29482
+MD5sum: d28611254d30a7f2bdce588f33430447
+Description: Support library to allow tweaks to communicate with sandboxed processes.
+
+Name: SilentScreenshot
+Package: com.smokin1337.silentscreenshot
+Version: 1.1-2
+Section: Tweaks
+Author: smokin1337 <smokin1337@gmail.com>
+Maintainer: smokin1337 <smokin1337@gmail.com>
+Depends: firmware (>11.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm
+Filename: ./debs/SilentScreenshot_1.1-2.deb
+Size: 156192
+MD5sum: 1fc8b88214babba5a06a25cf8050b10f
+Description: Enables customization settings for screenshots, customize the flash color, turn preview on/off, and shutter sound on/off.
+
+Name: Spotlightless11
+Package: com.cydiageek.spotlightless11
+Version: 1.0.4
+Section: Tweaks
+Author: CydiaGeek <lucaluca86@aol.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>10.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/Spotlightless11_1.0.4.deb
+Size: 47528
+MD5sum: bf3e93adef718a86eb89a56cb3cd3c8e
+Description: Gets rid of the Spotlight on iOS 10 and 11.
+
+Name: SugarCane
+Package: com.ioscreatix.sugarcane
+Version: 1.0.0-1+debug
+Section: Tweaks
+Author: iOS Creatix
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>11.0)
+Architecture: iphoneos-arm
+Filename: ./debs/SugarCane_1.0.0-1+debug.deb
+Size: 7888
+MD5sum: 42add643c538ddacb04194cd10a7ccb7
+Description: Adds a small percentage to the sliders in control center.
+
+Name: TechSupport Framework
+Package: jp.ashikase.techsupport
+Version: 1.5.0.1-1
+Section: Development
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: jp.ashikase.libpackageinfo
+Architecture: iphoneos-arm
+Filename: ./debs/TechSupportFramework_1.5.0.1-1_iphoneos-arm.deb
+Size: 114992
+MD5sum: 70794fdd2f450d3f1f42f91edb399ea8
+Description: Framework to assist in providing feedback to developers.
+
+Name: uasharedtools (iOS 11)
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-61
+Section: Development
+Author: UnlimApps Inc. <support@unlimapps.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<<2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<<2.2r-36)
+Architecture: iphoneos-arm
+Filename: ./debs/uasharedtools(nostash)iOS11_2.2r-61.deb
+Size: 22785424
+MD5sum: 57aee2d915780a062b05e95279402e61
+Description: Shared tools for ++ tweaks.
