@@ -99,17 +99,17 @@ MD5sum: 3d066c0024bacf35a705da8907a11e1a
 Description: Enables the ability to install unsigned/fakesigned .IPA & .DEB packages.
 
 Name: CarBridge
-Package: com.repo.xarold.com.carplay
-Version: 1.0.1
+Package: com.leftyfl1p.carplay
+Version: 1.0.2
 Section: Tweaks
 Author: leftyfl1p <carbridgetweak@gmail.com>
-Maintainer: Xarold <contact@xarold.com>
+Maintainer: leftyfl1p <carbridgetweak@gmail.com>
 Depends: firmware (>10.0), mobilesubstrate, applist, com.rpetrich.rocketbootstrap, preferenceloader, ch.ringwald.hidsupport, ws.hbang.common
 Conflicts: com.eason.carplay, com.repo.xarold.com.carplay, com.eason.carplay.ios11
 Architecture: iphoneos-arm
-Filename: ./debs/CarBridge_1.0.1.deb
-Size: 3184480
-MD5sum: b143044c17edc1497e5d28e77aa414a9
+Filename: ./debs/CarBridge_1.0.2.deb
+Size: 3184502
+MD5sum: 786c6a5c17f49c0df8fe5f10b39abbbd
 Description: Open any app in CarPlay.
 
 Name: CCSupport
